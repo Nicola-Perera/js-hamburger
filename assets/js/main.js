@@ -1,5 +1,6 @@
-let hamburger_menu = document.querySelector('hamburger-menu');
+let hamburger_menu = document.querySelector('div > a');
+let open_hamburger = document.querySelector('hamburger-menu');
 
 hamburger_menu.addEventListener('click', function() {
-  hamburger_menu.className += 'active' ;
+  open_hamburger.className += 'active' 
 });
